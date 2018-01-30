@@ -2,7 +2,7 @@
   "name": "basic-csv",
   "resources": [
     {
-      "path": "comma-separated.csv",
+      "path": "../../data-files/csv/comma-separated.csv",
       "name": "comma-separated",
       "format": "csv",
       "schema": {
