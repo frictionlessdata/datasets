@@ -2,6 +2,6 @@ This data package contains data for testing "string" formats ("default", "email"
 
 You should expect following errors when validating data against the schema in datapackage.json:
 
-* "default" field values cannot be empty as it has "required" constraint
-* "email" field value in row 3 is not an email
-* "uri" field value in row 3 is not a URI
+* The value "null" does not conform to the "required" constraint for column "default"
+* The value "user2@domain" in column "email" is not type "string" and format "email"
+* The value "https:/domain.com" in column "uri" is not type "string" and format "uri"
