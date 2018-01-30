@@ -1,4 +1,4 @@
-This datapackage contains data for testing formats of "date" type according to specs provided here https://frictionlessdata.io/specs/table-schema/#string.
+This datapackage contains data for testing formats of "date" type according to specs provided here https://frictionlessdata.io/specs/table-schema/#date.
 
 You should expect following errors when validating data against the schema in datapackage.json:
 
