@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import csv
 
 
@@ -11,7 +12,7 @@ def save_dict_to_csv(data, path):
 
             n += 1
             if n % 1000 == 0:
-                print(n, 'lines')
+                print('%d lines' % n)
         print('DONE!')
 
 
