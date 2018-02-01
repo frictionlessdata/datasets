@@ -138,8 +138,35 @@
     },
     {
       "path": "../../data-files/csv/separators/tab.csv",
-      "name": "tab-separated",
+      "name": "tab-separated-csv",
       "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "number",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "string",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "boolean",
+            "type": "boolean",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "../../data-files/csv/separators/tab.tsv",
+      "name": "tab-separated-tsv",
+      "format": "tsv",
       "schema": {
         "fields": [
           {
