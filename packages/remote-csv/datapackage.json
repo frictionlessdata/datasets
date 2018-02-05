@@ -2,7 +2,7 @@
   "name": "remote-resource",
   "resources": [
     {
-      "path": "https://raw.githubusercontent.com/frictionlessdata/test-data/master/data-files/csv/comma-separated.csv",
+      "path": "https://raw.githubusercontent.com/frictionlessdata/test-data/master/files/csv/separators/comma.csv",
       "pathType": "remote",
       "name": "sample",
       "format": "csv",
