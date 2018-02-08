@@ -26,6 +26,6 @@ def sample_table_generator(rows=10, columns=10):
 
 if __name__ == "__main__":
     save_dict_to_csv(
-        data=sample_table_generator(rows=3300, columns=3000),
+        data=sample_table_generator(rows=5000, columns=1000),
         path='files/csv/big.csv'
     )

@@ -1,10 +1,19 @@
 {
-  "name": "different-decimeters-csv",
+  "name": "different-separators",
+  "title": "different-separators",
   "resources": [
     {
-      "path": "comma.csv",
-      "name": "comma-separated",
+      "path": "carets.csv",
+      "pathType": "local",
+      "name": "carets",
       "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": "^",
+        "quoteChar": "\"",
+        "escapeChar": "\""
+      },
       "schema": {
         "fields": [
           {
@@ -30,8 +39,16 @@
     },
     {
       "path": "colon.csv",
-      "name": "colon-separated",
+      "pathType": "local",
+      "name": "colon",
       "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": ":",
+        "quoteChar": "\"",
+        "escapeChar": "\""
+      },
       "schema": {
         "fields": [
           {
@@ -56,9 +73,17 @@
       }
     },
     {
-      "path": "carets.csv",
-      "name": "carets-separated",
+      "path": "comma.csv",
+      "pathType": "local",
+      "name": "comma",
       "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\"",
+        "escapeChar": "\""
+      },
       "schema": {
         "fields": [
           {
@@ -84,8 +109,16 @@
     },
     {
       "path": "pipes.csv",
-      "name": "pipes-separated",
+      "pathType": "local",
+      "name": "pipes",
       "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": "|",
+        "quoteChar": "\"",
+        "escapeChar": "\""
+      },
       "schema": {
         "fields": [
           {
@@ -111,8 +144,16 @@
     },
     {
       "path": "semicolon.csv",
-      "name": "semicolon-separated",
+      "pathType": "local",
+      "name": "semicolon",
       "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": ";",
+        "quoteChar": "\"",
+        "escapeChar": "\""
+      },
       "schema": {
         "fields": [
           {
@@ -138,8 +179,16 @@
     },
     {
       "path": "tab.csv",
-      "name": "tab-separated-csv",
+      "pathType": "local",
+      "name": "tab",
       "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": "\t",
+        "quoteChar": "\"",
+        "escapeChar": "\""
+      },
       "schema": {
         "fields": [
           {
@@ -165,8 +214,16 @@
     },
     {
       "path": "tab.tsv",
-      "name": "tab-separated-tsv",
+      "pathType": "local",
+      "name": "tab",
       "format": "tsv",
+      "mediatype": "text/tab-separated-values",
+      "encoding": "ISO-8859-1",
+      "dialect": {
+        "delimiter": "\t",
+        "quoteChar": "\"",
+        "escapeChar": "\""
+      },
       "schema": {
         "fields": [
           {
