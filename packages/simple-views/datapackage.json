@@ -1,0 +1,44 @@
+{
+  "name": "simple-views",
+  "resources": [
+    {
+      "path": "comma.csv",
+      "name": "comma-separated",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "x-numbers",
+            "type": "integer"
+          },
+          {
+            "name": "y-numbers",
+            "type": "integer"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "views": [
+    {
+      "name": "graph",
+      "title": "Simple VIews",
+      "specType": "simple",
+      "spec": {
+        "type": "line",
+        "group": "date",
+        "series": [
+          "x-numbers",
+          "y-numbers"
+        ]
+      }
+    }
+  ]
+}
