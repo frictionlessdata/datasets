@@ -3,7 +3,7 @@
   "resources": [
     {
       "path": "no-such-file.csv",
-      "pathType": "remote",
+      "pathType": "local",
       "name": "invalid-local-path",
       "format": "csv",
       "schema": {
