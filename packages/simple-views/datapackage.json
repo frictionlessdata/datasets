@@ -37,7 +37,11 @@
         "series": [
           "x-numbers",
           "y-numbers"
-        ]
+        ],
+        "xSuffix": "x-suffix",
+        "ySuffix": "y-suffix",
+        "xTitle": "my custom abscissa title",
+        "yTitle": "my custom ordinate title"
       }
     }
   ]
