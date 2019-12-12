@@ -17,7 +17,12 @@ Please keep files as small as possible (in general we are testing correctness no
 We suggest sub-moduling this repo into your own tool.
 
 ```
-git submodule TODO
+git submodule add https://github.com/frictionlessdata/testsuite-data.git <relative path>
+
+eg.:
+
+git submodule add https://github.com/frictionlessdata/testsuite-data.git src\test\resources\testsuite-data
+
 ```
 
 Some files may change over time, e.g. due to data package spec upgrade, but you can still keep old spec versions by submoduling from a specific branch. Below is an example `.gitmodules` file:
