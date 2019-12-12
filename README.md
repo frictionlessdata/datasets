@@ -19,8 +19,10 @@ We suggest sub-moduling this repo into your own tool.
 ```
 git submodule add https://github.com/frictionlessdata/testsuite-data.git <relative path>
 
+```
 eg.:
 
+```
 git submodule add https://github.com/frictionlessdata/testsuite-data.git src\test\resources\testsuite-data
 
 ```
